@@ -18,7 +18,7 @@
 
 namespace JMS\I18nRoutingBundle\Router;
 
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Component\Translation\DataCollectorTranslator;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 use JMS\I18nRoutingBundle\Util\RouteExtractor;

@@ -1,14 +1,18 @@
 {
-    "name":         "jms/i18n-routing-bundle",
-    "description":  "This bundle allows you to create i18n routes.",
-    "keywords":     ["translation","multilanguage","routing"],
-    "homepage": "http://jmsyst.com/bundles/JMSI18nRoutingBundle",       
-    "type":         "symfony-bundle",
-    "license":      "Apache2",
+    "name": "jms/i18n-routing-bundle",
+    "description": "This bundle allows you to create i18n routes.",
+    "keywords": [
+        "translation",
+        "multilanguage",
+        "routing"
+    ],
+    "homepage": "http://jmsyst.com/bundles/JMSI18nRoutingBundle",
+    "type": "symfony-bundle",
+    "license": "Apache2",
     "authors": [
         {
-            "name":   "Johannes M. Schmitt",
-            "email":  "schmittjoh@gmail.com"
+            "name": "Johannes M. Schmitt",
+            "email": "schmittjoh@gmail.com"
         },
         {
             "name": "Albert Casademont",
@@ -16,19 +20,21 @@
         }
     ],
     "require": {
-	    "php": "^7.1",
-        "symfony/framework-bundle": "^4.0 || ^5.0"
+        "php": "^7.1",
+        "symfony/framework-bundle": "^5.0"
     },
     "require-dev": {
         "sensio/framework-extra-bundle": "*",
-        "symfony/symfony": "^4.0 || ^5.0",
+        "symfony/symfony": "^5.0",
         "phpunit/phpunit": "^9.0"
     },
     "suggest": {
         "jms/translation-bundle": "If you want to use the RouteTranslation extractor"
     },
     "autoload": {
-        "psr-0": { "JMS\\I18nRoutingBundle": "" }
+        "psr-0": {
+            "JMS\\I18nRoutingBundle": ""
+        }
     },
     "target-dir": "JMS/I18nRoutingBundle"
 }
